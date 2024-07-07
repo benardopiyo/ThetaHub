@@ -1,0 +1,177 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f0f8ff; /* Light Blue Background */
+}
+
+header {
+    background: #000; /* Black Background */
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header .nav-links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    background: #007bb5; /* Primary Blue */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #007bb5; /* Primary Blue */
+    color: #fff;
+    border-radius: 10px;
+}
+
+.cta .price {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.cta a {
+    background: #fff;
+    color: #007bb5; /* Primary Blue */
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.cta p {
+    margin-top: 10px;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    text-align: center;
+    color: #007bb5; /* Primary Blue */
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    text-align: center;
+    color: #007bb5; /* Primary Blue */
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.section-content p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.section.stats, .section.features, .section.curriculum, .section.testimonials, .section.courses, .section.bonus {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section.stats div, .section.features div, .section.curriculum li, .section.bonus div {
+    flex: 1;
+    margin: 10px;
+    background: #fff; /* White Background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section.stats div p, .section.features div p {
+    text-align: center;
+}
+
+.section.testimonials ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section.testimonials ul li {
+    margin: 10px;
+    text-align: center;
+    background: #f0f8ff; /* Light Blue Background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section.testimonials ul li img {
+    border-radius: 50%;
+}
+
+/* Footer */
+footer {
+    background: #000; /* Black Background */
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 5px solid #007bb5; /* Primary Blue */
+}
+
+footer .footer-content {
+    margin-bottom: 20px;
+}
+
+footer .footer-content a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .footer-content a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 10px;
+}
